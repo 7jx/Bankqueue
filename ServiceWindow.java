@@ -6,7 +6,7 @@ import java.util.logging.Logger;
  * 没有把VIP窗口和快速窗口做成子类，是因为实际业务中的普通窗口可以随时被设置为VIP窗口和快速窗口。
  * */
 public class ServiceWindow {
-	private static Logger logger = Logger.getLogger("cn.itcast.bankqueue");
+	private static Logger logger = Logger.getLogger("interview.bankqueue");
 	private CustomerType type = CustomerType.COMMON;
 	private int number = 1;
 
