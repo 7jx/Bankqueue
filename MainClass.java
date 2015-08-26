@@ -4,7 +4,7 @@ import java.util.logging.Logger;
 
 public class MainClass {
 	
-	private static Logger logger = Logger.getLogger("cn.itcast.bankqueue");
+	private static Logger logger = Logger.getLogger("interview.bankqueue");
 	
 
 	public static void main(String[] args) {
